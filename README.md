@@ -1,36 +1,34 @@
-Tab Form Component - React JS
-This project is a reusable Tab Form Component built using React JS.
+# Tab Form Component - React JS
 
-This component was created as part of an assignment/task given by Myntra and Zepto during their interview process.
+This repository contains a reusable **Tab Form Component** built using React JS.
 
-Features
-Dynamic Tab-based form navigation
+> This component was developed as part of an assignment given by **Myntra** and **Zepto** during their interview process.
 
-Seamless form data handling between tabs
+---
 
-Clean & modular component structure
+## Features
 
-Responsive design
+- Tab-based form navigation
+- Manage multiple forms within different tabs
+- Maintains form data across tabs
+- Easy to customize and reuse
+- Clean and modular code structure
 
-Easy to integrate & customize
+---
 
-Tech Stack
-React JS
+## Tech Stack
 
-CSS / Tailwind (optional if used)
+- React JS
+- JavaScript (ES6+)
+- CSS / Tailwind CSS (if used)
+- React Hooks
 
-Functional Components & Hooks
+---
 
-How to Use
-bash
-Copy
-Edit
+## Installation
+
+Clone the repository:
+
+```bash
 git clone https://github.com/your-username/tab-form-component.git
 cd tab-form-component
-npm install
-npm start
-Preview
-Add screenshots or a demo gif/video link here (Optional)
-
-Note
-This component was specifically built to demonstrate my understanding of component-driven development, state management, and UI handling in React JS during frontend interview rounds.
