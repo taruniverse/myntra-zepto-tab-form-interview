@@ -1,6 +1,6 @@
 import React from "react";
 
-const Interest = ({ data, setData }) => {
+const Interest = ({ data, setData, errors }) => {
   const { interest } = data;
   const handleDataChange = (e, name) => {
     setData((prevState) => ({
@@ -45,6 +45,7 @@ const Interest = ({ data, setData }) => {
           Java
         </label>
       </div>
+      {errors?.interest && <span className="error">{errors.interest}</span>}
     </div>
   );
 };

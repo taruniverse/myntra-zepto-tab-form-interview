@@ -54,3 +54,10 @@
   height: 400px;
   padding: 10px;
 }
+
+.error {
+  color: red;
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+}
